@@ -1,0 +1,44 @@
+
+
+
+body{
+	background: #000;
+	}
+#image{
+	    width: 1294px;
+    height: 240px;
+    margin-bottom: 60px;
+}
+#sidebar{
+	float: left;
+width: 500px;
+}
+#piechart{
+	width: 502px;
+height: 380px;
+}
+.container img{
+	float:right;
+	width: 700px;
+}
+h1,p{
+	font-family: sans-serif;
+}
+.pull-right-main-nav {
+    float: right;
+    margin-bottom: 25px;
+}
+nav ul {
+    list-style: none;
+    display: block;  
+     color: #fff;
+}
+nav ul li {
+    float: left;
+    margin: 10px 20px;
+    font-size: 16px;  
+}
+nav ul li {
+    float: left;
+    margin: -8px 14px;
+}

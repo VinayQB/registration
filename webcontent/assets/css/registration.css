@@ -1,0 +1,227 @@
+body, html {
+    color: #373C40;
+    font-family: Verdana,Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin:10px;
+    background-image: url("../../assets/images/doctorsbg_1300.jpg");
+    font-size: 85%;
+}
+#center{
+    text-align: right;
+
+}
+p {
+    padding: 21px 0 7px 0;
+    font-weight: 500;
+    font-size: 10pt;
+}
+
+h1 {
+    font-weight: 201;
+    color: #fff;
+    font-size: 18pt;
+    text-align: center;
+    margin: 10px -3px 8px 8px;
+    font-family: sans-serif;
+}
+
+form.register{
+   
+    width: 654px;
+    margin: 20px auto 0px;
+    height: 1000px;
+    padding: 19px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+}
+
+form.register fieldset.row
+{
+    width:631px;
+    padding-bottom: 54px;
+    float:left;
+   
+    margin-bottom:43px;
+}
+
+form.register legend
+{
+    color: #fff;
+    padding: 10px;
+    margin-left: 19px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+form.register label{
+    color: #fff;
+    width: 120px;
+    float: left;
+    text-align: right;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+
+form.register input{
+    width: 140px;
+    color: #505050;
+    float: left;
+    margin-right: 28px;
+}
+form.register input.long{
+    width: 247px;
+    color: #505050;
+}
+
+form.register input[type=radio]
+{
+    float:left;
+    width:15px;
+}
+form.register label.gender{
+    margin-top:-1px;
+    margin-bottom:2px;
+    width:55px;
+    float:left;
+    text-align:left;
+    line-height:19px;
+    margin-left: -1px:;
+}
+form.register input[type=text]
+{
+    border: 1px solid rgba(101, 81, 81, 1);
+    height: 18px;
+}
+form.register input[type=password]
+{
+    border: 1px solid rgba(101, 81, 81, 1);
+    height: 18px;
+}
+form.register input[type=email]{
+    border: 1px solid rgba(101, 81, 81, 1);
+    height: 18px;
+}
+.button
+{
+   
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+
+   
+    color: #ccc;
+    background-color: #555;
+    background: -webkit-linear-gradient(#888, #555);
+    background: linear-gradient(#020101, #555);
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 #000;
+    box-shadow: 0 1px 0 #666, 0 5px 0 #444, 0 6px 6px rgba(0,0,0,0.6);
+    cursor: pointer;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    padding: 8px 10px 8px;
+    font-size:18px;
+    margin-left: 258px;
+    margin-top: 15px;
+}
+.button:hover, .button:focus
+{
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+    
+@-webkit-keyframes pulsate
+{
+    0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+    50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+    100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+        
+ @keyframes pulsate
+{
+    0%   { color: #ddd; text-shadow: 0 -1px 0 #000; }
+    50%  { color: #fff; text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff; }
+    100% { color: #ddd; text-shadow: 0 -1px 0 #000; }
+}
+
+.button:active
+{
+    color: #fff;
+    text-shadow: 0 -1px 0 #444, 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 1px 0 #666, 0 2px 0 #444, 0 2px 2px rgba(0,0,0,0.9);
+    -webkit-transform: translateY(3px);
+    transform: translateY(3px);
+    -webkit-animation: none;
+    animation: none;
+}
+
+form.register input[type=text].year
+{
+    border: 1px solid #E1E1E1;
+    height: 18px;
+    width:30px;
+}
+form.register input[type=checkbox] {
+    width:14px;
+    margin-top:4px;
+}
+
+form.register select
+{
+    border: 1px solid #E1E1E1;
+    width: 130px;
+    float:left;
+    margin-bottom:3px;
+    color: #505050;
+    margin-right:5px;
+}
+form.register select.date
+{
+    width: 40px;
+}
+input:focus, select:focus{
+    background-color: #efffe0;
+}
+
+.ageGate .result {
+    clear:left;
+    margin-top:15px;
+    font-size:20px;
+    padding:20px;
+}
+.ageGate label {
+    display:none;
+}
+.ageGate input {
+    margin:0;
+    color:#666;
+    font-size:2em;
+    display:block;
+    float:left;
+    text-align:center;
+}
+#certification{
+
+    width: 334px;
+}
+#state{
+padding-left: 47px;
+}
+.pull-right-main-nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    display: block;  
+     color: #fff;
+}
+nav ul li {
+    float: left;
+    margin: 10px 20px;
+    font-size: 16px;  
+}
+nav ul li {
+    float: left;
+    margin: -8px 14px;
+}
