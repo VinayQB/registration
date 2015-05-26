@@ -214,14 +214,20 @@ padding-left: 47px;
 nav ul {
     list-style: none;
     display: block;  
-     color: #fff;
+    color: #fff;
+    
 }
 nav ul li {
     float: left;
-    margin: 10px 20px;
-    font-size: 16px;  
-}
-nav ul li {
+    font-size: 16px; 
     float: left;
     margin: -8px 14px;
+}
+nav ul li a:hover{
+       background-color: #000;
+       
+}
+
+nav ul li a{
+    text-decoration: none;
 }
