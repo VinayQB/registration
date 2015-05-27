@@ -218,10 +218,10 @@ nav ul {
     
 }
 nav ul li {
-    float: left;
+     font-family: 'Oswald', sans-serif;
+    float: right;
     font-size: 16px; 
-    float: left;
-    margin: -8px 14px;
+        margin: -8px 14px;
 }
 nav ul li a:hover{
        background-color: #000;
