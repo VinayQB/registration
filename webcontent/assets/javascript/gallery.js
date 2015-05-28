@@ -4,7 +4,7 @@
             destinations = data['Destinations'];
 
             $.each(destinations, function(id, destination) {
-                $('#destinations').append('<img id="slider" src="'+destination["destinationName"]+'">');
+                $('#destinations').append('<img id="slider" title="'+destination["caption"]+'"  src="'+destination["destinationName"]+'">');
             });
         });
     });

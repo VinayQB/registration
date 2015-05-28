@@ -8,6 +8,7 @@ body{
 	    width: 100%;
     height: auto;
     margin-bottom: 60px;
+    border: 1px solid white;
 }
 
 #sidebar{

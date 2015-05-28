@@ -3,8 +3,8 @@ body, html {
     font-family: Verdana,Arial, Helvetica, sans-serif;
     height: 100%;
     margin:10px;
-    background-image: url("../../assets/images/doctorsbg_1300.jpg");
     font-size: 85%;
+	background: #000;
 }
 body {
   margin: 0;
@@ -25,7 +25,7 @@ nav ul li {
         margin: -8px 14px;
 }
 nav ul li a:hover{
-       background-color: #000;
+       background-color:  rgba(110, 22, 22, 1);
        
 }
 
@@ -33,14 +33,40 @@ nav ul li a{
     text-decoration: none;
 }
  #slider{
-    height: auto;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     display: inline;
     margin:20px;
     float: left;
     cursor: pointer;
     border: 2px solid silver;
+    -moz-transition:-moz-transform 0.5s ease-in; 
+-webkit-transition:-webkit-transform 0.5s ease-in; 
+-o-transition:-o-transform 0.5s ease-in;
 }
+#image{
+	    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
 
-  
-  
+}
+.pull-right-main-nav {
+    float: right;
+    margin-bottom: 25px;
+}
+p{
+	font-family: 'Oswald',sans-serif;
+	font-size: 189%;
+	color: white;
+	text-align: center;
+	font-weight: 900;
+	
+}
+#companies{
+	border-bottom: 1px solid red;
+	border-top: 1px solid red;
+}  
+
+
+#slider { transition: all .2s ease-in-out; }
+#slider:hover { transform: scale(1.1); }
