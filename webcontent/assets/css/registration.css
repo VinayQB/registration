@@ -3,8 +3,14 @@ body, html {
     font-family: Verdana,Arial, Helvetica, sans-serif;
     height: 100%;
     margin:10px;
-    background-image: url("../../assets/images/doctorsbg_1300.jpg");
     font-size: 85%;
+    background-color: rgba(21, 18, 18, 1);
+}
+#image{
+        width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    border: 1px solid white;
 }
 #center{
     text-align: right;
@@ -210,21 +216,25 @@ padding-left: 47px;
 }
 .pull-right-main-nav {
     float: right;
+    margin-bottom: 25px;
 }
 nav ul {
     list-style: none;
     display: block;  
-    color: #fff;
-    
+     color: #fff;
 }
 nav ul li {
      font-family: 'Oswald', sans-serif;
-    float: right;
-    font-size: 16px; 
-        margin: -8px 14px;
+    float: left;
+    margin: 10px 20px;
+    font-size: 16px;  
+}
+nav ul li {
+    float: left;
+    margin: -8px 14px;
 }
 nav ul li a:hover{
-       background-color: #000;
+       background-color:rgba(110, 22, 22, 1);
        
 }
 
