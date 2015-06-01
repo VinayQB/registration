@@ -1,16 +1,26 @@
- $(document).ready(function(){
+
+
+
+    $(document).ready(function(){
         $.getJSON('../assets/javascript/gallery.json', function(data) {
             // $("#destinations option").remove();
             destinations = data['Destinations'];
 
             $.each(destinations, function(id, destination) {
-                // $('#destinations').append('<img id="slider" title="'+destination["caption"]+'"  src="'+destination["destinationName"]+'">');
-                $('#destinations').append('<input onclick="showImage();" type="image" id="slider" "'+'" src="'+destination["destinationName"]+'">'+'<div id="loadingImage">'+'<img id="big_image" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'">'+'</div>');
+                $('#destinations').append('<a href = "javascript:void(0)" onclick = "popup('+destination["id"]+')" >'+'<img id="slider" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'">'+'</a>');
+                $('#popupContainer').append('<div id="'+destination["id"]+'" class="white_content"><a class="closeImg" href = "javascript:void(0)" onclick ="closeP('+destination["id"]+')" >Close</a><img class="popupImg" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'"></div>');
+
             });
         });
     });
 
-
-function showImage(){
-        document.getElementById('loadingImage').style.display="block";
-    }
+function popup(x){
+ 
+document.getElementById(x).style.display='block';
+document.getElementById('fade').style.display='block';
+}
+function closeP(y){
+ 
+  document.getElementById(y).style.display='none';
+  document.getElementById('fade').style.display='none';
+}

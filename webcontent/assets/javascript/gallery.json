@@ -3,44 +3,54 @@
        
         {
             "destinationName": "../assets/images/IND_AB-Financial-Services-Colour-High-Logo_web2.jpg",
-            "caption":"Adithya Birla Group"
+            "caption":"Adithya Birla Group",
+            "id":"1"
         },
         {
             "destinationName": "../assets/images/mercedes-benz-logo.jpg",
-            "caption":"mercedes-benz"
+            "caption":"mercedes-benz",
+            "id":"2"
         },
         {
             "destinationName": "../assets/images/Microsoft.jpg",
-            "caption":"Microsoft"
+            "caption":"Microsoft",
+            "id":"3"
         },
         
         {
-            "destinationName": "../assets/images/7_work.jpg",
-            "caption":"Tata"
+            "destinationName": "../assets/images/tata-logo.jpg",
+            "caption":"Tata Group",
+            "id":"4"
         },
         {
             "destinationName": "../assets/images/1393861250.jpg",
-            "caption":"Mahindra"
+            "caption":"Mahindra",
+            "id":"5"
         },
         {
             "destinationName": "../assets/images/intel-logo-white-in-blue-background.png",
-            "caption":"Intel"
+            "caption":"Intel",
+            "id":"6"
         },
          {
             "destinationName": "../assets/images/2000px-Indian_Oil_Logo.svg.png",
-             "caption":"Indian Oil"
+             "caption":"Indian Oil",
+            "id":"7"
         },
         {
-            "destinationName": "../assets/images/new-logo.png",
-             "caption":"Vinay Blending Quality&Relations"
+            "destinationName": "../assets/images/ONGC_logo_big.jpg",
+             "caption":"ONGC",
+            "id":"8"
         },
         {
-            "destinationName": "../assets/images/123.jpg",
-             "caption":"L&T"
+            "destinationName": "../assets/images/45690.jpg",
+             "caption":"L&T",
+            "id":"9"
         },
         {
             "destinationName": "../assets/images/Vodafone-India-Company-Logo.jpg",
-             "caption":"Vodafone"
+             "caption":"Vodafone",
+            "id":"10"
         }
     ]
 }
