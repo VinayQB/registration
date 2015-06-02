@@ -8,7 +8,8 @@ body{
 	    width: 100%;
     height: auto;
     margin-bottom: 60px;
-    border: 1px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 #sidebar{
@@ -24,11 +25,18 @@ h1{
 	
 	border-bottom: 1px solid red;
 }
+h1{
 
-h1,p{
+	font-family: sans-serif;
+	padding: 10px;
+	color:rgba(170, 110, 110, 1);
+}
+
+p{
 	font-family: sans-serif;
 	padding: 10px;
 	text-align: justify;
+	color:rgba(170, 110, 110, 1);
 }
 .pull-right-main-nav {
     float: right;

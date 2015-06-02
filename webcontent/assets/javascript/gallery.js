@@ -8,7 +8,7 @@
 
             $.each(destinations, function(id, destination) {
                 $('#destinations').append('<a href = "javascript:void(0)" onclick = "popup('+destination["id"]+')" >'+'<img id="slider" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'">'+'</a>');
-                $('#popupContainer').append('<div id="'+destination["id"]+'" class="white_content"><a class="closeImg" href = "javascript:void(0)" onclick ="closeP('+destination["id"]+')" >Close</a><img class="popupImg" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'"></div>');
+                $('#popupContainer').append('<div id="'+destination["id"]+'" class="white_content"><a class="closeImg" href = "javascript:void(0)" onclick ="closeP('+destination["id"]+')" >Close</a><h2 id="heading" >'+destination["caption"]+'</h2><p id="details">'+destination["details"]+'</p><img class="popupImg" title="'+destination["caption"]+'" src="'+destination["destinationName"]+'"></div>');
 
             });
         });
