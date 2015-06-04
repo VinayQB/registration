@@ -132,5 +132,9 @@ overflow: auto;
 }
 #details{
 	color: black;
-
+}
+@media screen and (max-width: 980px) {
+	.white_content {
+		width: 100%;
+	}
 }
