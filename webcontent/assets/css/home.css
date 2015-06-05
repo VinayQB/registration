@@ -76,8 +76,29 @@ nav ul li a{
 	.container{
 		width: 100%;
 	}
-	.pull-right-main-nav {
+	/*nav ul {
+		float: none;
+		margin-top: 5px;
+		background-color: #ccc;
+	}
+	nav ul li a{
 		display: block;
+		color: #ccc;
+		border-bottom: 1px dotted #ccc;
+		margin: 0px;
+		padding: 3px;
+	}*/
 		
 	}
 }
+
+/*#footerMain{
+    text-align: center;
+    color:white;
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid silver;
+    bottom: 0;
+    position: fixed;
+}*/

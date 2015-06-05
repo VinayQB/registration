@@ -5,6 +5,7 @@ body, html {
     margin:10px;
     font-size: 85%;
 	background: #000;
+	margin:auto;
 }
 body {
   margin: 0;
@@ -137,4 +138,18 @@ overflow: auto;
 	.white_content {
 		width: 100%;
 	}
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: rgba(173, 50, 50, 1);
+    width: 100%;
+    margin-top: 50px;
+    height: 38px;
+    bottom: 0;
+   
+}
+#foot
+{
+
 }

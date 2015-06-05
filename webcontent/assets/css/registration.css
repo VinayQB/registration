@@ -5,13 +5,14 @@ body, html {
     margin:10px;
     font-size: 85%;
     background-color:    rgba(125, 121, 121, 1);
+    margin: auto;
 }
 #image{
         width: 100%;
     height: auto;
     margin-bottom: 60px;
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
+    border-top: 6px solid black;
+    border-bottom: 6px solid black;
 }
 #center{
     text-align: right;
@@ -30,6 +31,7 @@ h1 {
     text-align: center;
     margin: 10px -3px 8px 8px;
     font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -245,4 +247,14 @@ nav ul li a{
 }
 #myForm{
 
+}
+footer{
+    text-align: center;
+    color:white;
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+    height: 58px;
+    bottom: 0;
+   
 }
